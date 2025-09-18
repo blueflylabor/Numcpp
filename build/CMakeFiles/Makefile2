@@ -63,16 +63,14 @@ CMAKE_BINARY_DIR = /Users/jeffwhynot/Documents/projects/Numcpp/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/mul_array_core.dir/all
-all: CMakeFiles/mul_array.dir/all
-all: CMakeFiles/mul_array_tests.dir/all
+all: CMakeFiles/numcpp_demo.dir/all
+all: CMakeFiles/numcpp_tests.dir/all
 all: _deps/googletest-build/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/mul_array_core.dir/codegen
-codegen: CMakeFiles/mul_array.dir/codegen
-codegen: CMakeFiles/mul_array_tests.dir/codegen
+codegen: CMakeFiles/numcpp_demo.dir/codegen
+codegen: CMakeFiles/numcpp_tests.dir/codegen
 codegen: _deps/googletest-build/codegen
 .PHONY : codegen
 
@@ -81,9 +79,8 @@ preinstall: _deps/googletest-build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/mul_array_core.dir/clean
-clean: CMakeFiles/mul_array.dir/clean
-clean: CMakeFiles/mul_array_tests.dir/clean
+clean: CMakeFiles/numcpp_demo.dir/clean
+clean: CMakeFiles/numcpp_tests.dir/clean
 clean: _deps/googletest-build/clean
 .PHONY : clean
 
@@ -154,102 +151,69 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 .PHONY : _deps/googletest-build/googletest/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/mul_array_core.dir
+# Target rules for target CMakeFiles/numcpp_demo.dir
 
 # All Build rule for target.
-CMakeFiles/mul_array_core.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=11,12 "Built target mul_array_core"
-.PHONY : CMakeFiles/mul_array_core.dir/all
+CMakeFiles/numcpp_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=9,10 "Built target numcpp_demo"
+.PHONY : CMakeFiles/numcpp_demo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mul_array_core.dir/rule: cmake_check_build_system
+CMakeFiles/numcpp_demo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mul_array_core.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/numcpp_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/mul_array_core.dir/rule
+.PHONY : CMakeFiles/numcpp_demo.dir/rule
 
 # Convenience name for target.
-mul_array_core: CMakeFiles/mul_array_core.dir/rule
-.PHONY : mul_array_core
+numcpp_demo: CMakeFiles/numcpp_demo.dir/rule
+.PHONY : numcpp_demo
 
 # codegen rule for target.
-CMakeFiles/mul_array_core.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=11,12 "Finished codegen for target mul_array_core"
-.PHONY : CMakeFiles/mul_array_core.dir/codegen
+CMakeFiles/numcpp_demo.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=9,10 "Finished codegen for target numcpp_demo"
+.PHONY : CMakeFiles/numcpp_demo.dir/codegen
 
 # clean rule for target.
-CMakeFiles/mul_array_core.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/clean
-.PHONY : CMakeFiles/mul_array_core.dir/clean
+CMakeFiles/numcpp_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/clean
+.PHONY : CMakeFiles/numcpp_demo.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/mul_array.dir
+# Target rules for target CMakeFiles/numcpp_tests.dir
 
 # All Build rule for target.
-CMakeFiles/mul_array.dir/all: CMakeFiles/mul_array_core.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=9,10 "Built target mul_array"
-.PHONY : CMakeFiles/mul_array.dir/all
+CMakeFiles/numcpp_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/numcpp_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=11,12 "Built target numcpp_tests"
+.PHONY : CMakeFiles/numcpp_tests.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mul_array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mul_array.dir/all
+CMakeFiles/numcpp_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/numcpp_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/mul_array.dir/rule
+.PHONY : CMakeFiles/numcpp_tests.dir/rule
 
 # Convenience name for target.
-mul_array: CMakeFiles/mul_array.dir/rule
-.PHONY : mul_array
+numcpp_tests: CMakeFiles/numcpp_tests.dir/rule
+.PHONY : numcpp_tests
 
 # codegen rule for target.
-CMakeFiles/mul_array.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=9,10 "Finished codegen for target mul_array"
-.PHONY : CMakeFiles/mul_array.dir/codegen
+CMakeFiles/numcpp_tests.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=11,12 "Finished codegen for target numcpp_tests"
+.PHONY : CMakeFiles/numcpp_tests.dir/codegen
 
 # clean rule for target.
-CMakeFiles/mul_array.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/clean
-.PHONY : CMakeFiles/mul_array.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/mul_array_tests.dir
-
-# All Build rule for target.
-CMakeFiles/mul_array_tests.dir/all: CMakeFiles/mul_array_core.dir/all
-CMakeFiles/mul_array_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-CMakeFiles/mul_array_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=13,14 "Built target mul_array_tests"
-.PHONY : CMakeFiles/mul_array_tests.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/mul_array_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mul_array_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/mul_array_tests.dir/rule
-
-# Convenience name for target.
-mul_array_tests: CMakeFiles/mul_array_tests.dir/rule
-.PHONY : mul_array_tests
-
-# codegen rule for target.
-CMakeFiles/mul_array_tests.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles --progress-num=13,14 "Finished codegen for target mul_array_tests"
-.PHONY : CMakeFiles/mul_array_tests.dir/codegen
-
-# clean rule for target.
-CMakeFiles/mul_array_tests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/clean
-.PHONY : CMakeFiles/mul_array_tests.dir/clean
+CMakeFiles/numcpp_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/clean
+.PHONY : CMakeFiles/numcpp_tests.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir

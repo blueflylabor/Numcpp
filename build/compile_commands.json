@@ -1,43 +1,37 @@
 [
 {
   "directory": "/Users/jeffwhynot/Documents/projects/Numcpp/build",
-  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/src -g -std=c++11 -arch arm64 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/mul_array_core.dir/src/mul_array.cpp.o -c /Users/jeffwhynot/Documents/projects/Numcpp/src/mul_array.cpp",
-  "file": "/Users/jeffwhynot/Documents/projects/Numcpp/src/mul_array.cpp",
-  "output": "CMakeFiles/mul_array_core.dir/src/mul_array.cpp.o"
-},
-{
-  "directory": "/Users/jeffwhynot/Documents/projects/Numcpp/build",
-  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/src -g -std=c++11 -arch arm64 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/mul_array.dir/src/main.cpp.o -c /Users/jeffwhynot/Documents/projects/Numcpp/src/main.cpp",
+  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/src -g -std=c++17 -arch arm64 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/numcpp_demo.dir/src/main.cpp.o -c /Users/jeffwhynot/Documents/projects/Numcpp/src/main.cpp",
   "file": "/Users/jeffwhynot/Documents/projects/Numcpp/src/main.cpp",
-  "output": "CMakeFiles/mul_array.dir/src/main.cpp.o"
+  "output": "CMakeFiles/numcpp_demo.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/Documents/projects/Numcpp/build",
-  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/src -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++14 -arch arm64 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/mul_array_tests.dir/tests/test_mul_array.cpp.o -c /Users/jeffwhynot/Documents/projects/Numcpp/tests/test_mul_array.cpp",
-  "file": "/Users/jeffwhynot/Documents/projects/Numcpp/tests/test_mul_array.cpp",
-  "output": "CMakeFiles/mul_array_tests.dir/tests/test_mul_array.cpp.o"
+  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/src -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/numcpp_tests.dir/tests/test_matrix.cpp.o -c /Users/jeffwhynot/Documents/projects/Numcpp/tests/test_matrix.cpp",
+  "file": "/Users/jeffwhynot/Documents/projects/Numcpp/tests/test_matrix.cpp",
+  "output": "CMakeFiles/numcpp_tests.dir/tests/test_matrix.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-build/googlemock",
-  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/include -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++14 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/include -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "file": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
 },
 {
   "directory": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-build/googlemock",
-  "command": "/usr/bin/c++  -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++14 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "command": "/usr/bin/c++  -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "file": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
 },
 {
   "directory": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-build/googletest",
-  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++14 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "command": "/usr/bin/c++  -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -I/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "file": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
 },
 {
   "directory": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-build/googletest",
-  "command": "/usr/bin/c++  -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++14 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "command": "/usr/bin/c++  -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/include -isystem /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "file": "/Users/jeffwhynot/Documents/projects/Numcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
 }

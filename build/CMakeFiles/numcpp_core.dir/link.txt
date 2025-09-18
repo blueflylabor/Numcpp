@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnumcpp_core.a
+/usr/bin/ranlib libnumcpp_core.a

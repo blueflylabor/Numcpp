@@ -3,4 +3,11 @@ MultiArray:MultiArrayTest.ElementWiseAdd 3 0.00592503
 MultiArray:MultiArrayTest.Conv1D 3 0.00570252
 MultiArray:MultiArrayTest.EncodeDecodeValidation 3 0.00521562
 MultiArray:MultiArrayTest.PrintMatrixException 3 0.00537476
+Numcpp:MatrixTest.BasicConstructor 1 0.00779121
+Numcpp:MatrixTest.ElementWiseOperations 1 0.0383497
+Numcpp:MatrixTest.ScalarOperations 1 0.00595537
+Numcpp:MatrixTest.MatrixMultiplication 1 0.00573746
+Numcpp:MatrixTest.TransposeAndReshape 1 0.00593567
+Numcpp:MatrixTest.Conv1D 1 0.00585854
+Numcpp:MatrixTest.Statistics 1 0.0061835
 ---

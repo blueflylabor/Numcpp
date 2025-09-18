@@ -192,43 +192,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mul_array_core
+# Target rules for targets named numcpp_demo
 
 # Build rule for target.
-mul_array_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mul_array_core
-.PHONY : mul_array_core
+numcpp_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 numcpp_demo
+.PHONY : numcpp_demo
 
 # fast build rule for target.
-mul_array_core/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/build
-.PHONY : mul_array_core/fast
+numcpp_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/build
+.PHONY : numcpp_demo/fast
 
 #=============================================================================
-# Target rules for targets named mul_array
+# Target rules for targets named numcpp_tests
 
 # Build rule for target.
-mul_array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mul_array
-.PHONY : mul_array
+numcpp_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 numcpp_tests
+.PHONY : numcpp_tests
 
 # fast build rule for target.
-mul_array/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/build
-.PHONY : mul_array/fast
-
-#=============================================================================
-# Target rules for targets named mul_array_tests
-
-# Build rule for target.
-mul_array_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mul_array_tests
-.PHONY : mul_array_tests
-
-# fast build rule for target.
-mul_array_tests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/build
-.PHONY : mul_array_tests/fast
+numcpp_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/build
+.PHONY : numcpp_tests/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -287,7 +274,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -295,7 +282,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -303,56 +290,32 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array.dir/build.make CMakeFiles/mul_array.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_demo.dir/build.make CMakeFiles/numcpp_demo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/mul_array.o: src/mul_array.cpp.o
-.PHONY : src/mul_array.o
+tests/test_matrix.o: tests/test_matrix.cpp.o
+.PHONY : tests/test_matrix.o
 
 # target to build an object file
-src/mul_array.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/src/mul_array.cpp.o
-.PHONY : src/mul_array.cpp.o
+tests/test_matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/tests/test_matrix.cpp.o
+.PHONY : tests/test_matrix.cpp.o
 
-src/mul_array.i: src/mul_array.cpp.i
-.PHONY : src/mul_array.i
-
-# target to preprocess a source file
-src/mul_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/src/mul_array.cpp.i
-.PHONY : src/mul_array.cpp.i
-
-src/mul_array.s: src/mul_array.cpp.s
-.PHONY : src/mul_array.s
-
-# target to generate assembly for a file
-src/mul_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_core.dir/build.make CMakeFiles/mul_array_core.dir/src/mul_array.cpp.s
-.PHONY : src/mul_array.cpp.s
-
-tests/test_mul_array.o: tests/test_mul_array.cpp.o
-.PHONY : tests/test_mul_array.o
-
-# target to build an object file
-tests/test_mul_array.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/tests/test_mul_array.cpp.o
-.PHONY : tests/test_mul_array.cpp.o
-
-tests/test_mul_array.i: tests/test_mul_array.cpp.i
-.PHONY : tests/test_mul_array.i
+tests/test_matrix.i: tests/test_matrix.cpp.i
+.PHONY : tests/test_matrix.i
 
 # target to preprocess a source file
-tests/test_mul_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/tests/test_mul_array.cpp.i
-.PHONY : tests/test_mul_array.cpp.i
+tests/test_matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/tests/test_matrix.cpp.i
+.PHONY : tests/test_matrix.cpp.i
 
-tests/test_mul_array.s: tests/test_mul_array.cpp.s
-.PHONY : tests/test_mul_array.s
+tests/test_matrix.s: tests/test_matrix.cpp.s
+.PHONY : tests/test_matrix.s
 
 # target to generate assembly for a file
-tests/test_mul_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul_array_tests.dir/build.make CMakeFiles/mul_array_tests.dir/tests/test_mul_array.cpp.s
-.PHONY : tests/test_mul_array.cpp.s
+tests/test_matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numcpp_tests.dir/build.make CMakeFiles/numcpp_tests.dir/tests/test_matrix.cpp.s
+.PHONY : tests/test_matrix.cpp.s
 
 # Help Target
 help:
@@ -373,18 +336,14 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... mul_array"
-	@echo "... mul_array_core"
-	@echo "... mul_array_tests"
+	@echo "... numcpp_demo"
+	@echo "... numcpp_tests"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/mul_array.o"
-	@echo "... src/mul_array.i"
-	@echo "... src/mul_array.s"
-	@echo "... tests/test_mul_array.o"
-	@echo "... tests/test_mul_array.i"
-	@echo "... tests/test_mul_array.s"
+	@echo "... tests/test_matrix.o"
+	@echo "... tests/test_matrix.i"
+	@echo "... tests/test_matrix.s"
 .PHONY : help
 
 

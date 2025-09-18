@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "mul_array"
+			"path" : "numcpp_demo"
 		}
 	],
 	"backtrace" : 1,
@@ -11,8 +11,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries",
-			"target_compile_options"
+			"target_compile_options",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -26,19 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 66,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -49,25 +49,25 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++11 -arch arm64"
+					"fragment" : "-g -std=c++17 -arch arm64"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-Wno-unused-parameter"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "/Users/jeffwhynot/Documents/projects/Numcpp/src"
 				}
 			],
@@ -78,7 +78,7 @@
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
@@ -86,14 +86,7 @@
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "mul_array_core::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "mul_array::@6890427a1f51a3e7e1df",
+	"id" : "numcpp_demo::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -101,17 +94,12 @@
 			{
 				"fragment" : "-g",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "libmul_array_core.a",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "mul_array",
-	"nameOnDisk" : "mul_array",
+	"name" : "numcpp_demo",
+	"nameOnDisk" : "numcpp_demo",
 	"paths" : 
 	{
 		"build" : ".",

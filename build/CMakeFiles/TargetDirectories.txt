@@ -1,6 +1,5 @@
-/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/mul_array_core.dir
-/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/mul_array.dir
-/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/mul_array_tests.dir
+/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/numcpp_demo.dir
+/Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/numcpp_tests.dir
 /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/package.dir
 /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/package_source.dir
 /Users/jeffwhynot/Documents/projects/Numcpp/build/CMakeFiles/test.dir

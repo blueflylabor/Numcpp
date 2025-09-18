@@ -1,0 +1,5 @@
+if(EXISTS "/Users/jeffwhynot/Documents/projects/Numcpp/build/numcpp_tests[1]_tests.cmake")
+  include("/Users/jeffwhynot/Documents/projects/Numcpp/build/numcpp_tests[1]_tests.cmake")
+else()
+  add_test(numcpp_tests_NOT_BUILT numcpp_tests_NOT_BUILT)
+endif()

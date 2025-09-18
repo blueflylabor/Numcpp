@@ -25,19 +25,19 @@
 	ProcessorClockFrequency="0"
 	>
 	<Testing>
-		<StartDateTime>Sep 18 10:06 CST</StartDateTime>
-		<StartTestTime>1758161182</StartTestTime>
+		<StartDateTime>Sep 18 10:28 CST</StartDateTime>
+		<StartTestTime>1758162536</StartTestTime>
 		<TestList>
-			<Test>./MultiArray_MultiArrayTest.PrintMatrixException</Test>
+			<Test>./Numcpp_MatrixTest.Statistics</Test>
 		</TestList>
 		<Test Status="passed">
-			<Name>MultiArray:MultiArrayTest.PrintMatrixException</Name>
+			<Name>Numcpp:MatrixTest.Statistics</Name>
 			<Path>.</Path>
-			<FullName>./MultiArray_MultiArrayTest.PrintMatrixException</FullName>
-			<FullCommandLine>/Users/jeffwhynot/Documents/projects/Numcpp/build/mul_array_tests "--gtest_filter=MultiArrayTest.PrintMatrixException" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<FullName>./Numcpp_MatrixTest.Statistics</FullName>
+			<FullCommandLine>/Users/jeffwhynot/Documents/projects/Numcpp/build/numcpp_tests "--gtest_filter=MatrixTest.Statistics" "--gtest_also_run_disabled_tests"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00488129</Value>
+					<Value>0.0061835</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -46,18 +46,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>/Users/jeffwhynot/Documents/projects/Numcpp/build/mul_array_tests "--gtest_filter=MultiArrayTest.PrintMatrixException" "--gtest_also_run_disabled_tests"</Value>
+					<Value>/Users/jeffwhynot/Documents/projects/Numcpp/build/numcpp_tests "--gtest_filter=MatrixTest.Statistics" "--gtest_also_run_disabled_tests"</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNkD8LwkAMxff7FBl1aNFVcBAUB2ktVafS4dRYDq6JpKl/vr22RVFB6JuO3C/Jy4tZcQJL5sIjbLFSODmvKDCFqPbqZiL23tTDRBxpZFXcbXE74Fkdk8mmb+WQ1kSOChiDtoOEy9e7qp1iaLLgrRyWnvfWd/9IFydMJdKTRQ3q8w/8OfPbmMkg3cXQKu9nuoNhverXAIMRlNWwr6EOB2W1fmj63axoJTjy9SfRf0mCWAq/9zyPSmabzWLepNCxoXkAQ4yZvA==</Value>
+					<Value encoding="base64" compression="gzip">eJyNkD0PgjAQhvf+ihtloNHVhMFEw2BEAzoRhqonaVJa0x7qzxdoRDEh4Z0ud899vJcYwiXExpQK4YiO4CYVoYUIdoKsfLU5npEg6UheHMujXgWktdZSl7AA6lqtqT6xqyUhZ3nYq4BYmbNQvo76Ia3RFeqGRQrr+x/8O/N7CsshPSXQqRg70Zdhvx1DYDaHygVTFnoUyJBQAZvmh1DY8GqeevitsS+BFZoP9zQWDqss26xbl57l7A1pfoXB====</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Sep 18 10:06 CST</EndDateTime>
-		<EndTestTime>1758161182</EndTestTime>
+		<EndDateTime>Sep 18 10:28 CST</EndDateTime>
+		<EndTestTime>1758162536</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

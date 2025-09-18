@@ -21,8 +21,7 @@
 					"targetIndexes" : 
 					[
 						4,
-						5,
-						6
+						5
 					]
 				},
 				{
@@ -92,12 +91,11 @@
 					[
 						0
 					],
-					"name" : "MultiArrayProject",
+					"name" : "Numcpp",
 					"targetIndexes" : 
 					[
 						4,
-						5,
-						6
+						5
 					]
 				},
 				{
@@ -148,50 +146,43 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "gmock::@0f7bb11d64f3678238c7",
-					"jsonFile" : "target-gmock-Debug-ec2c99a30113166aef1e.json",
+					"jsonFile" : "target-gmock-Debug-890b11e7f12620824cdc.json",
 					"name" : "gmock",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "gmock_main::@0f7bb11d64f3678238c7",
-					"jsonFile" : "target-gmock_main-Debug-ccb6f41c1779e6ef8292.json",
+					"jsonFile" : "target-gmock_main-Debug-3a2d0862b0c2951d57f3.json",
 					"name" : "gmock_main",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
-					"jsonFile" : "target-gtest-Debug-d69a01c409182d9aad97.json",
+					"jsonFile" : "target-gtest-Debug-438e4781366f4274aae1.json",
 					"name" : "gtest",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
-					"jsonFile" : "target-gtest_main-Debug-2e722bc979304d367103.json",
+					"jsonFile" : "target-gtest_main-Debug-bb249d9285f31b8791cd.json",
 					"name" : "gtest_main",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "mul_array::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mul_array-Debug-9154a0fe659d49b0d3a9.json",
-					"name" : "mul_array",
+					"id" : "numcpp_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numcpp_demo-Debug-911fc027edbc56834a55.json",
+					"name" : "numcpp_demo",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "mul_array_core::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mul_array_core-Debug-eaefcea1bcfba2c7f256.json",
-					"name" : "mul_array_core",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "mul_array_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mul_array_tests-Debug-a838a5313b4180276055.json",
-					"name" : "mul_array_tests",
+					"id" : "numcpp_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numcpp_tests-Debug-3bbdec5c23ac2c773517.json",
+					"name" : "numcpp_tests",
 					"projectIndex" : 0
 				}
 			]
