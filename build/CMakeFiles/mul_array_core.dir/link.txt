@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmul_array_core.a CMakeFiles/mul_array_core.dir/src/mul_array.cpp.o
+/usr/bin/ranlib libmul_array_core.a

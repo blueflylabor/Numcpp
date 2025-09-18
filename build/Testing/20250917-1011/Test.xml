@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20250917-1011-Experimental"
+	Name="JeffdeMacBook-Air.local"
+	Generator="ctest-4.0.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="17.0.0.17000319"
+	OSName="macOS"
+	Hostname="JeffdeMacBook-Air.local"
+	OSRelease="26.0"
+	OSVersion="25A354"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M1"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Sep 18 10:06 CST</StartDateTime>
+		<StartTestTime>1758161182</StartTestTime>
+		<TestList>
+			<Test>./MultiArray_MultiArrayTest.PrintMatrixException</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>MultiArray:MultiArrayTest.PrintMatrixException</Name>
+			<Path>.</Path>
+			<FullName>./MultiArray_MultiArrayTest.PrintMatrixException</FullName>
+			<FullCommandLine>/Users/jeffwhynot/Documents/projects/Numcpp/build/mul_array_tests "--gtest_filter=MultiArrayTest.PrintMatrixException" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00488129</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/jeffwhynot/Documents/projects/Numcpp/build/mul_array_tests "--gtest_filter=MultiArrayTest.PrintMatrixException" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkD8LwkAMxff7FBl1aNFVcBAUB2ktVafS4dRYDq6JpKl/vr22RVFB6JuO3C/Jy4tZcQJL5sIjbLFSODmvKDCFqPbqZiL23tTDRBxpZFXcbXE74Fkdk8mmb+WQ1kSOChiDtoOEy9e7qp1iaLLgrRyWnvfWd/9IFydMJdKTRQ3q8w/8OfPbmMkg3cXQKu9nuoNhverXAIMRlNWwr6EOB2W1fmj63axoJTjy9SfRf0mCWAq/9zyPSmabzWLepNCxoXkAQ4yZvA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 18 10:06 CST</EndDateTime>
+		<EndTestTime>1758161182</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

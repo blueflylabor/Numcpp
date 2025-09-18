@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/mul_array_test.dir/mul_array_test.cpp.o -o mul_array_test  lib/libgtest_main.a lib/libgtest.a

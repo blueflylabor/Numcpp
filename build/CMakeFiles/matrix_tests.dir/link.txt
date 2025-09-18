@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/matrix_tests.dir/tests/test_matrix.cpp.o CMakeFiles/matrix_tests.dir/mul_array_test.cpp.o -o matrix_tests  lib/libgtest_main.a lib/libgtest.a

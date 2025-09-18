@@ -1,0 +1,6 @@
+MultiArray:MultiArrayTest.StrideAndIndex 3 0.00677616
+MultiArray:MultiArrayTest.ElementWiseAdd 3 0.00592503
+MultiArray:MultiArrayTest.Conv1D 3 0.00570252
+MultiArray:MultiArrayTest.EncodeDecodeValidation 3 0.00521562
+MultiArray:MultiArrayTest.PrintMatrixException 3 0.00537476
+---
